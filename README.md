@@ -2,6 +2,7 @@
 
 ## Structure
 
+```
 homework2/
 ├── main.py
 ├── README.md
@@ -21,6 +22,7 @@ homework2/
 └── utils/
 └── file/
 └── dir_list.py
+```
 
 ### Task 1
 
