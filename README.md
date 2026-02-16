@@ -1,4 +1,4 @@
-# Python lessons
+# Console Bot
 
 ## Structure
 
