@@ -4,7 +4,7 @@ from pathlib import Path
 # Return object with cats information.
 def get_cats_info(file: str) -> object:
     path = Path(file)
-    if not path.exists():
+    if not path.exists() or not path.is_file():
         print(f"File {file} does not exist.")
         return []
 

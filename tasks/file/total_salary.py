@@ -6,7 +6,7 @@ def total_salary(file: str) -> object:
     total = 0
     count = 0
     path = Path(file)
-    if not path.exists():
+    if not path.exists() or not path.is_file():
         print(f"File {file} does not exist.")
         return (0, 0)
     
